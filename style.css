@@ -1,0 +1,65 @@
+
+/* General page styling */
+body {
+    background-color: #f4f6fb;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: #222;
+}
+
+/* Main heading */
+h1 {
+    color: #563d7c;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* Description */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Search input */
+#search-input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Search input focus */
+#search-input:focus {
+    border-color: #7952b3;
+    box-shadow: 0 0 5px #7952b3;
+}
+
+/* Fetch button */
+#fetch-btn {
+    background-color: #7952b3;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#fetch-btn:hover {
+    background-color: #563d7c;
+}
+
+/* GIF display */
+#gif-container {
+    justify-content: center;
+    gap: 15px 0;
+}
+
+/* GIF images */
+#gif-container img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+#gif-container img:hover {
+    transform: scale(1.05);
+}
